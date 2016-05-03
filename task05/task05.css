@@ -1,0 +1,164 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    background-color:silver;
+}
+.nav {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    float: left;
+}
+.nav-left {
+    float: left;
+    width: 150px;
+    height: 50px;
+    line-height: 64px;
+    margin-left: 50px;
+}
+.nav-right {
+    width: 250px;
+    height: 50px;
+    float: right;
+    line-height: 50px;
+}
+.nav-right ul li {
+    display: inline-block;
+}
+.container-content {
+    width: 65%;
+    height: auto;
+    float: left;
+}
+.container{
+    width: 96%;
+    height:auto;
+    margin:26px auto;
+    padding:30px;
+    background-color:white;
+    font-family:"Microsoft YaHei";
+}
+p {
+    line-height: 30px;
+    text-indent: 2em;
+}
+.container-photo{
+    width: 96%;
+    height:730px;
+    margin:26px auto;
+    padding:30px;
+    background-color:white;
+    font-family:"Microsoft YaHei";
+}
+.image{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.list-item li{
+    padding-left:20px;
+}
+.image-list {
+    width: 185px;
+    height: 210px;
+    border: 1px solid grey;
+    /* margin-left: 63px; */
+    /* margin-top: 20px; */
+    text-align: center;
+    float: left;
+}
+.image-list p {
+    width: auto;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    text-indent: 0em;
+}
+.order-list {
+    width: 85px;
+    height: auto;
+    margin: 22px 0 22px 60px;
+}
+.order-list ul{
+    list-style: decimal;
+}
+.table{
+    width:100%;
+    height:auto;
+    cellspacing: "0";
+    cellpadding: "0";
+}
+thead{
+    height: 30px;
+    line-height:30px;
+    background-color:black;
+}
+tbody{
+    height: 30px;
+    line-height:30px;
+}
+tfoot{
+    height: 30px;
+    line-height:30px;
+    background-color:silver;
+}
+.container-form {
+    width: 35%;
+    height: auto;
+    float: left;
+}
+.aside{
+    height: 40px;
+    border-left: 2px solid silver;
+    padding-left: 20px;
+}
+.aside h3{
+    line-height: 40px;
+}
+.form {
+    width: 100%;
+    height: auto;
+}
+.email,.password,.password-again,.sex,.hobby,.place,.desc{
+    width:auto;
+    margin-top: 15px;
+}
+label{
+    vetical-align:top;
+    display: inline-block;
+    width: 130px;
+    text-align: right;
+    margin-right: 20px;
+}
+.tips {
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 155px;
+}
+.button{
+    width:100%;
+    height:40px;
+    line-height: 40px;
+    background-color: royalblue;
+    border-radius: 10px;
+    border: 0px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+.footer{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    float: left;
+}
+.footer-content{
+    width: 300px;
+    height: 50px;
+    line-height: 50px;
+    margin: 0px auto;
+    color: white;
+}

@@ -1,0 +1,87 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+.container {
+    width: 800px;
+    height: 900px;
+    border: 1px solid #C3C7CB;
+}
+.content {
+    max-width: 760px;
+    height: 500px;
+    margin: 20px;
+    background-color: #BCCCDA;
+}
+.cont-partone {
+    width: 200px;
+    height: 130px;
+    background-color: white;
+    margin: 15px;
+    float: left;
+    border: 1px solid grey;
+}
+.cont-parttwo{
+    width:325px;
+    height: 425px;
+    float:left;
+    background-color: white;
+    margin: 15px;
+    border: 1px solid grey;
+}
+.cont-partthree{
+    width: 140px;
+    height: 425px;
+    background-color: white;
+    margin: 15px;
+    float: right;
+    border: 1px solid grey;
+}
+.team-info {
+    position:relative;
+    width: 160px;
+    height: 100px;
+    margin: 13px auto;
+    background-color: white;
+}
+.team-logo {
+    width: 80px;
+    height: 80px;
+    border: 1px solid grey;
+    background-color: silver;
+}
+.team-name {
+    position: absolute;
+    top: 2px;
+    left: 91px;
+    font-size: 14px;
+}
+.text {
+    width: 280px;
+    height: 500px;
+    margin: 15px auto;
+}
+.title-intro {
+    width: 100%;
+}
+.team-intro {
+    width: 100%;
+    height:auto;
+    margin: 10px auto;
+}
+.example {
+    width: 100%;
+    height: auto;
+    margin: 10px auto;
+}
+.per-logo {
+    width: 80px;
+    height: 80px;
+    border: 1px solid grey;
+    margin: 20px auto;
+    /*text-align: center;*/
+    padding: 20px;
+    background-color: silver;
+}
+
